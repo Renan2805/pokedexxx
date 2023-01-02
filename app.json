@@ -2,14 +2,14 @@
   "expo": {
     "name": "pokedexxx",
     "slug": "pokedexxx",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F8F9FA"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,11 +23,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#F8F9FA"
+      },
+      "package": "com.renebar.pokedexxx"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "747acc64-4e08-40a0-b2b1-1689b910fa8e"
+      }
     }
   }
 }
